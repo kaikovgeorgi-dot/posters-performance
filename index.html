@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Posters Performance</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f0f0f;
+    color:#fff;
+}
+
+header{
+    background:#111;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    color:#ff3c00;
+    letter-spacing:2px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:#fff;
+    margin:0 10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    padding:60px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#ff3c00,#000);
+}
+
+.hero h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+    padding:20px;
+}
+
+.poster{
+    background:#1a1a1a;
+    padding:10px;
+    border-radius:10px;
+}
+
+.poster img{
+    width:100%;
+    border-radius:10px;
+}
+
+.order-btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 15px;
+    background:#ff3c00;
+    color:#fff;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.socials a{
+    margin:0 10px;
+    color:#ff3c00;
+    text-decoration:none;
+    font-size:18px;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Posters Performance</h1>
+    <nav>
+        <a href="#home">Начало</a>
+        <a href="#posters">Постери</a>
+        <a href="#contact">Контакт</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Performance Posters</h2>
+    <p>Премиум постери за коли • Тунинг • Performance култура</p>
+</section>
+
+<section class="section" id="posters">
+    <h2>Нашите постери</h2>
+
+    <div class="gallery">
+        <div class="poster">
+            <img src="https://via.placeholder.com/300x400?text=Poster+1">
+            <h3>Poster #1</h3>
+            <a class="order-btn" href="#">Поръчай</a>
+        </div>
+
+        <div class="poster">
+            <img src="https://via.placeholder.com/300x400?text=Poster+2">
+            <h3>Poster #2</h3>
+            <a class="order-btn" href="#">Поръчай</a>
+        </div>
+
+        <div class="poster">
+            <img src="https://via.placeholder.com/300x400?text=Poster+3">
+            <h3>Poster #3</h3>
+            <a class="order-btn" href="#">Поръчай</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Свържи се с нас</h2>
+    <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TikTok</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Posters Performance | All rights reserved
+</footer>
+
+</body>
+</html>
