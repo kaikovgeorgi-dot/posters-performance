@@ -55,9 +55,9 @@ header h1{
 
 .posters-grid{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap:40px;
-    max-width:1000px;
+    max-width:1100px;
     margin:auto;
 }
 
@@ -67,6 +67,12 @@ header h1{
     padding:18px;
     text-align:center;
     box-shadow:0 0 25px rgba(255,60,0,0.25);
+    transition:0.3s;
+}
+
+.poster-card:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 35px rgba(255,60,0,0.45);
 }
 
 .poster-card img{
@@ -170,6 +176,13 @@ footer{
         <div class="poster-card">
             <img src="https://i.ibb.co/DgQGzpT1/Chat-GPT-Image-15-01-2026-21-58-01.png" alt="Poster 2">
             <h3>Performance Poster 2</h3>
+            <a href="#order" class="btn">Поръчай</a>
+        </div>
+
+        <!-- Poster 3 -->
+        <div class="poster-card">
+            <img src="https://i.ibb.co/93yKmsg8/Chat-GPT-Image-20-01-2026-17-51-06.png" alt="Poster 3">
+            <h3>Performance Poster 3</h3>
             <a href="#order" class="btn">Поръчай</a>
         </div>
 
