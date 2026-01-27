@@ -54,8 +54,11 @@ header h1{
 }
 
 .posters-grid{
-    display:flex;
-    justify-content:center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:40px;
+    max-width:1000px;
+    margin:auto;
 }
 
 .poster-card{
@@ -63,7 +66,6 @@ header h1{
     border-radius:14px;
     padding:18px;
     text-align:center;
-    max-width:420px;
     box-shadow:0 0 25px rgba(255,60,0,0.25);
 }
 
@@ -153,14 +155,24 @@ footer{
 </section>
 
 <section class="section">
-    <h2>Нашият постер</h2>
+    <h2>Нашите постери</h2>
 
     <div class="posters-grid">
+
+        <!-- Poster 1 -->
         <div class="poster-card">
-            <img src="https://i.ibb.co/3yNbJnQP/Chat-GPT-Image-16-01-2026-15-49-44.png" alt="Poster">
-            <h3>Performance Poster</h3>
+            <img src="https://i.ibb.co/3yNbJnQP/Chat-GPT-Image-16-01-2026-15-49-44.png" alt="Poster 1">
+            <h3>Performance Poster 1</h3>
             <a href="#order" class="btn">Поръчай</a>
         </div>
+
+        <!-- Poster 2 -->
+        <div class="poster-card">
+            <img src="https://i.ibb.co/DgQGzpT1/Chat-GPT-Image-15-01-2026-21-58-01.png" alt="Poster 2">
+            <h3>Performance Poster 2</h3>
+            <a href="#order" class="btn">Поръчай</a>
+        </div>
+
     </div>
 </section>
 
